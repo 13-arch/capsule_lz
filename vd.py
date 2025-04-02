@@ -1,8 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-class gist():
-    def __init__(self,file_path):
-        self.file_path = file_path
+import llloogg
+
+
+@llloogg.logging
+class Gist():
+    def __init__(self):
         self.df = None
 
     def loading(self):

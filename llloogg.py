@@ -30,11 +30,3 @@ def logging(func):
             df.to_csv('logs.csv')
         return result
     return wrapper
-
-
-
-@logging
-def ddd():
-    a=print('dd')
-    return a
-v=ddd()
